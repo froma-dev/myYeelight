@@ -1,0 +1,30 @@
+{
+  "name": "yeelight",
+  "version": "1.0.0",
+  "description": "Yeelight Web Manager",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankesau/myYeelight.git"
+  },
+  "keywords": [
+    "yeelight",
+    "led",
+    "ssdp"
+  ],
+  "author": "fromana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankesau/myYeelight/issues"
+  },
+  "homepage": "https://github.com/frankesau/myYeelight#readme",
+  "devDependencies": {
+    "node-ssdp": "^3.3.0"
+  },
+  "dependencies": {
+    "@jaames/iro": "^3.5.1"
+  }
+}

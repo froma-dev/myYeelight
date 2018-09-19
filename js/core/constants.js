@@ -1,0 +1,80 @@
+const CONST = {
+	EFFECT: {
+		SMOOTH: "smooth",
+		SUDDEN: "sudden"
+	},
+	METHOD: {
+		GET_PROP: "get_prop",
+		SET_CT_ABX: "set_ct_abx",
+		SET_RGB: "set_rgb",
+		SET_HSV: "set_hsv",
+		SET_BRIGHT: "set_bright",
+		SET_POWER: "set_power",
+		TOGGLE: "toggle",
+		SET_DEFAULT: "set_default",
+		START_CF: "start_cf",
+		STOP_CF: "stop_cf",
+		SET_SCENE: "set_scene",
+		CRON_ADD: "cron_add",
+		CRON_GET: "cron_get",
+		CRON_DEL: "cron_del",
+		SET_ADJUST: "set_adjust",
+		SET_MUSIC: "set_music",
+		ADJUST_BRIGHT: "adjust_bright",
+		ADJUST_CT: "adjust_ct",
+		ADJUST_COLOR: "adjust_color",
+
+		BG_SET_CT_ABX: "bg_set_ct_abx",
+		BG_SET_RGB: "bg_set_rgb",
+		BG_SET_HSV: "bg_set_hsv",
+		BG_SET_BRIGHT: "bg_set_bright",
+		BG_SET_POWER: "bg_set_power",
+		BG_TOGGLE: "bg_toggle",
+		DEV_TOGGLE: "dev_toggle",
+		BG_SET_DEFAULT: "bg_set_default",
+		BG_START_CF: "bg_start_cf",
+		BG_STOP_CF: "bg_stop_cf",
+		BG_SET_SCENE: "bg_set_scene",
+		BG_SET_ADJUST: "bg_set_adjust",
+		BG_ADJUST_BRIGHT: "bg_adjust_bright",
+		BG_ADJUST_CT: "bg_adjust_ct",
+		BG_ADJUST_COLOR: "bg_adjust_color",
+	},
+	PROPS: [
+		"power",
+		"bright",
+		"ct",
+		"rgb",
+		"hue",
+		"sat",
+		"color_mode",
+		"flowing",
+		"delayoff",
+		"flow_params",
+		"music_on",
+		"name",
+		"bg_power",
+		"bg_flowing",
+		"bg_flow_params",
+		"bg_ct",
+		"bg_lmode",
+		"bg_bright",
+		"bg_rgb",
+		"bg_hue",
+		"bg_sat",
+		"nl_br",
+		"active_mode"
+	],
+	ADJUST: {
+		ACTION: {
+			INCREASE : "increase",
+			DECREASE : "decrease",
+			CIRCLE : "circle"
+		},
+		PROP: {
+			BRIGHT: "bright",
+			CT: "ct",
+			COLOR: "color"
+		}
+	}
+};

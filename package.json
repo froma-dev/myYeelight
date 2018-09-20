@@ -25,6 +25,7 @@
     "node-ssdp": "^3.3.0"
   },
   "dependencies": {
-    "@jaames/iro": "^3.5.1"
+    "@jaames/iro": "^3.5.1",
+    "vue": "^2.5.17"
   }
 }

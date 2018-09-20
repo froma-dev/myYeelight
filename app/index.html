@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="container-fluid">
+        <nav class="navbar navbar-light" style="background-color: #bdbdbd;">
+            <!-- Navbar content -->
+            <a class="navbar-brand" href="#">YeeMgr</a>
+            <div class="navbar-expand" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Features</a>
+                    <a class="nav-item nav-link" href="#">Pricing</a>
+                    <a class="nav-item nav-link disabled" href="#">Disabled</a>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <a class="nav-item nav-link active" href="#">Yee Control <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Settings</a>
+                <a class="nav-item nav-link" href="#">Discover Device</a>
+                <a class="nav-item nav-link" href="#">Device Info</a>
+            </nav>
+            <div class="col-md-9 ml-sm-auto col-lg-10 px-4 main">
+                <h1 class="h2">Dashboard</h1>
+                <div class="jumbotron clock">
+                    <h1 class="display-4 clock__time"></h1>
+                    <p class="lead"></p>
+                </div>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" id="turn-on-button" class="btn btn-light">Turn On</button>
+                    <button type="button" id="turn-off-button" class="btn btn-dark">Turn Off</button>
+                    <button type="button" id="turn-off-cron" class="btn btn-light">Apagar en 1 minuto</button>
+                </div>
+                <div id="color-picker-container"></div>
+                <div id="color-brightness-container">
+                    <input id="brightness-slider" type="range" min="1" max="100">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!--  -->
+<script src="./node_modules/@jaames/iro/dist/iro.js"></script>
+<!-- APP Constants -->
+<script src="js/core/constants.js"></script>
+<!-- Yeelight API -->
+<script src="js/core/yapi.js" type="application/javascript"></script>
+<!-- main -->
+<script src="app.js" type="application/javascript"></script>
+<!-- ioData -->
+<script src="js/core/ioData.js" type="application/javascript"></script>
+
+</html>
